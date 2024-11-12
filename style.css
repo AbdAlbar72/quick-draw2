@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    color: #FF6347;
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+/* Information Bar for Sketch, Timer, and Score */
+#info {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #FFFACD;
+    border-radius: 10px;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#info span {
+    margin: 0 15px;
+}
+
+/* Canvas Styling */
+canvas {
+    border: 2px solid #4682B4;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+button {
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #228B22;
+}
